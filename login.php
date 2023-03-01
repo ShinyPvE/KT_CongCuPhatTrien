@@ -12,5 +12,16 @@
 		<input type="password" name="password" required><br><br>
 		<input type="submit" name="login" value="Login">
 	</form>
+	<?php
+		if(isset($_POST['login'])){
+			$username = $_POST['username'];
+			$password = $_POST['password'];
+			if($username == "user" && $password == "password"){
+				echo "Login successful";
+			}else{
+				echo "Invalid login credentials";
+			}
+		}
+	?>
 </body>
 </html>
