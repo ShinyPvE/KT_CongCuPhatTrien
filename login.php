@@ -11,7 +11,7 @@
 <body>
 
     <body>
-        <h2>Login Form</h2>
+        <h2>Đăng nhập</h2>
         <form method="post" action="login.php">
             <label>Username:</label>
             <input type="text" name="username" required><br><br>
